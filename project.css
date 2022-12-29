@@ -1,0 +1,205 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,18,86,1) 22%, rgba(52,61,215,1) 57%, rgba(0,212,255,1) 83%);
+}       
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+      
+}
+
+.container{
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    font-size: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.navv{
+    flex: 1;
+    text-align: right;
+}
+
+.navv ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px; 
+}
+.navv ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+} 
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+#what{
+    color: #fff;
+    font-size: 90px;
+}
+h6{
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+    
+}
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+
+.card1{
+    background-image: url(https://www.cossa.ru/upload/iblock/680/virtual_assistant_services_2.jpg);
+    
+}
+.card2{
+    background-image: url(https://www.messengerpeople.com/wp-content/uploads/2022/04/telegram-bots-mp-blog-title-01.png); 
+}
+.card3{
+    background-image: url(https://i0.wp.com/dubawa.org/wp-content/uploads/2021/08/Social-media-bots.jpg?fit=1200%2C700&ssl=1); 
+}
+.card4{
+    background-image: url(https://chatlayer.ai/wp-content/uploads/2022/04/Telegram-Bots-CL-Blog-Title-01.png); 
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+
+#ssd{
+    text-align: center;
+    text-shadow: 0 0 5px #999;
+    color: #fff;
+}
+
+#lol{
+    color: white;
+    font-size: 17px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #030226;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+h4{
+    color: white;
+    
+}
+
+#about{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1{
+    color: #fff;
+    
+}
+
+#foo{
+    color: aquamarine;
+    height: 20px;
+}
+
+
+h2{
+    color: #fff;
+}
+
+
+.content{
+    width: 60%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 20%;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: large;
+    margin-top: 10%;
+}
+
+hr{
+    border: none;
+    color: #fff;
+    height: 4px;
+    background-color: #fff;
+}
+
+
+.hr{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+p{
+    color: #fff;
+}
+
+
+#foo2{
+    margin-top: 1px;
+}
+
+.rass{
+    margin-top: 10%;
+}
+
+
+.howuse{
+    color: #fff;
+    height: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+

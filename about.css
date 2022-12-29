@@ -1,0 +1,160 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,18,86,1) 22%, rgba(52,61,215,1) 57%, rgba(0,212,255,1) 83%);
+}       
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+      
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    font-size: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.navv{
+    flex: 1;
+    text-align: right;
+}
+
+.navv ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px; 
+}
+.navv ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+} 
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 70px;
+}
+p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+
+.card1{
+    background-image: url(https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png);
+}
+.card2{
+    background-image: url(https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png); 
+}
+.card3{
+    background-image: url(https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png); 
+}
+.card4{
+    background-image: url(https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png);
+    text-decoration: none; 
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+#about{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+#lider{
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+}
+.saa{
+    font-size: 19px;
+}
+
+h3{
+    font-weight: bold;
+    color: #fff;
+
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #030226;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+#foo{
+    color: aquamarine;
+    height: 20px;
+}
+
+.content{
+    margin-top: 5px;
+}
+
+.content1{
+    margin-top: 10px;
+}
+
+#foo2{
+    margin-top: 1px;
+}
+.saa1{
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
